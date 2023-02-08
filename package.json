@@ -3,18 +3,17 @@
   "description": "Lock on asynchronous code",
   "version": "1.5.0",
   "author": {
-    "name": "Rogier Schouten",
-    "url": "https://github.com/rogierschouten/",
-    "email": "github@workingcode.ninja"
+    "name": "Fabrizio La Rosa",
+    "url": "https://github.com/fabrimat/"
   },
   "private": false,
-  "homepage": "https://github.com/rogierschouten/async-lock",
+  "homepage": "https://github.com/Mine-Alpha/async-lock#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/rogierschouten/async-lock.git"
+    "url": "git+https://github.com/Mine-Alpha/async-lock.git"
   },
   "bugs": {
-    "url": "https://github.com/rogierschouten/async-lock/issues"
+    "url": "https://github.com/Mine-Alpha/async-lock/issues"
   },
   "license": "MIT",
   "keywords": [
@@ -44,5 +43,8 @@
     "mocha": "^7.1.2",
     "q": "^1.5.1",
     "should": "^13.2.1"
+  },
+  "publishConfig": {
+	"registry": "https://npm.pkg.github.com/Mine-Alpha"
   }
 }
