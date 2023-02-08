@@ -1,3 +1,8 @@
+1.5.0
+==================
+* Expose queue length
+* Make project ES6 native
+
 1.4.0
 ==================
 * add execution timeout (thank you @mottymilshtein)
